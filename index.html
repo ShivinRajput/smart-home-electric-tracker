@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Home Electric Tracker (Simulator)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Home Electric Tracker</h1>
+    <div id="appliances">
+        <div class="appliance">
+            <label>
+                <input type="checkbox" id="fan" /> Fan (50W)
+            </label>
+        </div>
+        <div class="appliance">
+            <label>
+                <input type="checkbox" id="light" /> Light (10W)
+            </label>
+        </div>
+        <div class="appliance">
+            <label>
+                <input type="checkbox" id="tv" /> TV (80W)
+            </label>
+        </div>
+    </div>
+    <div id="results">
+        <p><strong>Duration (hours):</strong>
+            <input type="number" id="hours" value="1" min="1" max="24"/>
+        </p>
+        <button id="calculate">Calculate Usage</button>
+        <h2>Results</h2>
+        <p>Total Units: <span id="units">0</span> kWh</p>
+        <p>Estimated Bill: ₹<span id="bill">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
