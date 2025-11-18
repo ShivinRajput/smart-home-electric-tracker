@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f5f5ff;
+}
+
+h1 {
+    text-align: center;
+    color: #2e3d65;
+}
+
+#appliances {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.appliance {
+    background: #d2e7fb;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#results {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #c7f7c6;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button {
+    background: #2e3d65;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
